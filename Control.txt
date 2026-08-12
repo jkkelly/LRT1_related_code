@@ -1,0 +1,6 @@
+infile	example.data.txt 
+minMAF	0.05  
+NoPops	8
+PCols	2,3,4,5,6,7,8,9
+FactorLevels	2
+Groups	2,3,4,5	6,7,8,9
