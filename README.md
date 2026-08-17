@@ -8,7 +8,11 @@ The basic approach is applicable to all these cases, although the details of the
 The user modifies to the Control.txt file to specify their input file and parameter values.  This is a tab delimited text file (make sure there are no unwanted spaces in the revised text).
 
 Usage:
+
 python Estimate_Nullvars_per_population.py
+
   This should produce "Nullvars.txt" as an output.  This file is an input the next program:
+  
 python Perform_LRT1_tests.py
+
   This program should output test results with each SNP as line in the file "LRT1_results.txt".
